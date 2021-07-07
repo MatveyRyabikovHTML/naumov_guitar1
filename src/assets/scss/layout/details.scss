@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details__title,
+.details__price {
+  @include reset-text;
+  @include base-font();
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.07em;
+}
